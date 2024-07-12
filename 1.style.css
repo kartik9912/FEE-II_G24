@@ -1,0 +1,35 @@
+/* /Universal Selector/ */
+*{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ID Selector: */
+
+#superheroes{
+    text-decoration: line-through;
+    color: blue;
+}
+
+/* Class Selector */
+
+.Super{
+    color: orangered;
+}
+
+/* Element Selector: */
+
+p{
+    background-color: bisque;
+}
+
+/* Attribute Selector */
+
+[type~="password"] {
+    background-color: aqua;
+}
+input[type="text"] {
+    background-color:beige;
+}
